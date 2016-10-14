@@ -128,7 +128,7 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "**I am working towards aritficially intelligent software infrastructure.** To this end, I have spent nearly the entirety of my ~10 years in the field working to help automate systems and make it easier to understand and visualize data. Having used many languages, many tools and many systems over the years, I have come to sip some Google kool-aid and fully endorse their ecosystem and design choices. I firmly believe with the Go language and tools like TensorFlow, App Engine, DataFlow and other things we can build powerfully intelligent systems in a sane and --most importantly-- _fun_ way."
 
     # Experiences section
     [params.experiences]
@@ -137,54 +137,54 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Founder and CEO"
+        dates = "2014 - Present"
+        company = "Blink Analytics, Washington DC"
+        details = "**My consulting company.** I started Blink Analytics with the goal of delivering intelligent applications, using a unique blend of infrastructure know-how, data science training and hands-on full-stack development. Past clients include Leidos, the US Government Services Administration, StrongDM, and more."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Engineer, Information Systems"
+        dates = "2013-2014"
+        company = "Cvent, Tysons VA"
+        details = "**Automation and microservices specialist.** I built automation systems for a 1500+ user VoIP system, a full-stack realtime call-center dashboard, and several internal tools and microservices for the IS division. This role encompassed a wide array of technologies including Java, C#, Python, Go and C++"
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Senior Systems Engineer"
+        dates = "2011 - 2013"
+        company = "MadWolf Technologies, Washington, DC"
+        details = "**Team lead and RMM automator.** I led a team of support engineers and helped build internal .NET tools to help manage over 25 clients and 50+ petabytes of managed data efficiently. Pioneered the use of scripted remote management tooling from N-Able using Powershell and C#."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "**Example open-source code I have worked on.** Here you can see a variety of personal and OSS projects I have contributed to on GitHub."
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Stanford CoreNLP"
+        url = "https://github.com/damienstanton/stanford-corenlp"
+        tagline = "a Clojure port of the Stanford CoreNLP library, partially complete."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "TensorFlow"
+        url = "https://github.com/damienstanton/tensorflow"
+        tagline = "contributions to Google TensorFlow to get it working better in Go."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Voice UI"
+        url = "https://github.com/damienstanton/voice-ui"
+        tagline = "A demo inspired by Fransesc Campoy to build a voice recognition system over the phone."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        title = "Movies"
+        url = "https://github.com/damienstanton/movies"
+        tagline = "A completion of the Facebook React Native tutorial for iOS."
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Mirror Factory"
+        url = "https://github.com/damienstanton/mirrorfactorydc.com"
+        tagline = "Website for the band in which I play guitar."
 
     # Skills section
     [params.skills]
@@ -201,16 +201,16 @@ disable404 = false
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Java"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "Scala"
+        skill = "Java/Scala"
         level = "85%"
 
         [[params.skills.list]]
+        skill = "JS"
+        level = "80%"
+
+        [[params.skills.list]]
         skill = "C++"
-        level = "75%"
+        level = "60%"
 
         [[params.skills.list]]
         skill = "TensorFlow"
@@ -223,6 +223,7 @@ disable404 = false
         [[params.skills.list]]
         skill = "DeepLearning4J"
         level = "70%"
+
 
 
 
