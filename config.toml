@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://damien.codes"
+baseurl = "https://damien.codes/"
 languageCode = "en-us"
 title = "Damien Stanton"
 theme = "hugo-orbit-theme"
