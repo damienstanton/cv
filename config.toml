@@ -74,11 +74,6 @@ disable404 = false
         title = "Education"
 
         [[params.education.list]]
-        degree = "OSCP Certificate: Ethical Hacking"
-        college = "Offensive Security"
-        dates = "2016"
-
-        [[params.education.list]]
         degree = "MITx Certificate: Big Data"
         college = "Massachusetts Institute of Technology"
         dates = "2015"
@@ -160,6 +155,11 @@ disable404 = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**Example open-source code I have worked on.** Here you can see a variety of personal and OSS projects I have contributed to on GitHub."
+
+        [[params.projects.list]]
+        title = "TypeReact"
+        url = "https://github.com/damienstanton/stanford-corenlp"
+        tagline = "A mimimal TypeScript/React/Go app starter kit"
 
         [[params.projects.list]]
         title = "Stanford CoreNLP"
