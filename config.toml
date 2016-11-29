@@ -194,7 +194,7 @@ disable404 = false
 
         [[params.skills.list]]
         skill = "Go"
-        level = "98%"
+        level = "95%"
 
         [[params.skills.list]]
         skill = "Python"
