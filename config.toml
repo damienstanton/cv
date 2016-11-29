@@ -129,7 +129,7 @@ disable404 = false
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Recent Experience"
 
         [[params.jobs.list]]
         position = "Founder and CEO"
@@ -159,7 +159,7 @@ disable404 = false
         [[params.projects.list]]
         title = "TypeReact"
         url = "https://github.com/damienstanton/stanford-corenlp"
-        tagline = "A mimimal TypeScript/React/Go app starter kit"
+        tagline = "A mimimal TypeScript/React/Go app starter kit."
 
         [[params.projects.list]]
         title = "Stanford CoreNLP"
@@ -182,9 +182,9 @@ disable404 = false
         tagline = "A completion of the Facebook React Native tutorial for iOS."
 
         [[params.projects.list]]
-        title = "Mirror Factory"
-        url = "https://github.com/damienstanton/mirrorfactorydc.com"
-        tagline = "Website for the band in which I play guitar."
+        title = "Alchemy"
+        url = "https://github.com/damienstanton/alchemy-lite"
+        tagline = "A public copy of Pedro Domingos' master algorithm from the original source."
 
     # Skills section
     [params.skills]
