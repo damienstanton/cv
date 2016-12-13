@@ -72,6 +72,11 @@ disable404 = false
     [params.education]
         enable = true
         title = "Education"
+		
+		[[params.education.list]]
+		degree = "Nano-Degree: Artificial Intelligence Engineer"
+		college = "Udacity"
+		dates = "2017"
 
         [[params.education.list]]
         degree = "MITx Certificate: Big Data"
@@ -110,6 +115,9 @@ disable404 = false
 
         [[params.interests.list]]
         interest = "Art"
+		
+        [[params.interests.list]]
+        interest = "Cinematography"
 
         [[params.interests.list]]
         interest = "Quantum Physics"
@@ -122,8 +130,8 @@ disable404 = false
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "**I am working towards aritficially intelligent software infrastructure.** To this end, I have spent nearly the entirety of my ~10 years in the field working to help automate systems and make it easier to understand and visualize data. Having used many languages, many tools and many systems over the years, I have come to sip some Google kool-aid and fully endorse their ecosystem and design choices. I firmly believe with the Go language and tools like TensorFlow, App Engine, DataFlow and other things we can build powerfully intelligent systems in a sane and --most importantly-- _fun_ way."
+        title = "Why I love computing"
+        summary = "**My goal is bringing AI-driven apps to the field of IT Ops.** To this end, I have spent nearly the entirety of my professional career working to help automate systems and make it easier to understand and visualize data. Having used many languages, many tools and many systems over the years I have settled on a workflow using TypeScript, Go, C# and Python ecosystems. I believe that AI an new computer interfaces such as Oculus Rift and Hololens can fundamentally change how people manage complex hardware and software systems. My own consulting company is heavily investing in this technology and cannot wait to explore what we can all do with it."
 
     # Experiences section
     [params.experiences]
@@ -182,9 +190,9 @@ disable404 = false
         tagline = "A completion of the Facebook React Native tutorial for iOS."
 
         [[params.projects.list]]
-        title = "Alchemy"
-        url = "https://github.com/damienstanton/alchemy-lite"
-        tagline = "A public copy of Pedro Domingos' master algorithm from the original source."
+        title = "AI Training Notes"
+        url = "https://github.com/damienstanton/ai-training"
+        tagline = "Public notes for a few AI training courses I am/have attended"
 
     # Skills section
     [params.skills]
@@ -201,11 +209,11 @@ disable404 = false
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Java/Scala"
+        skill = "C#/Java/Scala"
         level = "85%"
 
         [[params.skills.list]]
-        skill = "JS"
+        skill = "TypeScript/JS"
         level = "80%"
 
         [[params.skills.list]]
@@ -213,12 +221,12 @@ disable404 = false
         level = "60%"
 
         [[params.skills.list]]
-        skill = "TensorFlow"
+        skill = "TensorFlow and GCP APIs"
         level = "85%"
 
         [[params.skills.list]]
         skill = "Apache Spark"
-        level = "78%"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "DeepLearning4J"
